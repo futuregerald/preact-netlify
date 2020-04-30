@@ -1,4 +1,4 @@
-exec = require('child_process').execFile;
+exec = require('child_process').exec;
 module.exports = {
     onPreBuild: () => {
       console.log('Hello, we will not execute this Go executable!')
