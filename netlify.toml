@@ -6,4 +6,4 @@
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 [[plugins]]
-package = "./buildplugin/executego"
+package = "./buildplugin/executego/netlify-plugin-execute-go"
